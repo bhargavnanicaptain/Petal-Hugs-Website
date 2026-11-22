@@ -1,0 +1,86 @@
+{
+  "_comment": "Maps every organized image back to its source upload and product entry. Reference only — products.ts is what the site actually reads.",
+  "brand": {
+    "logo": {
+      "path": "/assets/brand/logo/petal-hugs-logo.png",
+      "originalFile": "Petal_Hugs_Handmade_Flower_Logo.png",
+      "usedUnmodified": true
+    }
+  },
+  "images": [
+    {
+      "path": "/assets/products/bouquets/velvet-bouquet-lifestyle-01.jpg",
+      "originalFile": "1000150973_1.jpg",
+      "productId": "velvet-rose-bouquet-black-wrap",
+      "category": "velvet-bouquets"
+    },
+    {
+      "path": "/assets/products/individual-flowers/flower-stem-yellow-lily.jpg",
+      "originalFile": "1000150795.jpg",
+      "productId": "yellow-velvet-lily-stem",
+      "category": "individual-flowers"
+    },
+    {
+      "path": "/assets/products/individual-flowers/individual-flowers-pink-purple-yellow.jpg",
+      "originalFile": "1000151767.jpg",
+      "productId": "rainbow-individual-flower-set",
+      "category": "individual-flowers"
+    },
+    {
+      "path": "/assets/products/individual-flowers/individual-flowers-full-color-set.jpg",
+      "originalFile": "1000151831.jpg",
+      "productId": "rainbow-individual-flower-set",
+      "category": "individual-flowers",
+      "note": "Cropped ~22% off the bottom to remove an unrelated third-party business card visible in the original photo."
+    },
+    {
+      "path": "/assets/products/individual-flowers/flower-potted-pink-pair.jpg",
+      "originalFile": "shared_image_6.jpg",
+      "productId": "potted-pink-lily-pair",
+      "category": "individual-flowers"
+    },
+    {
+      "path": "/assets/products/gift-arrangements/gift-arrangement-red-rose-card.jpg",
+      "originalFile": "1000150976.jpg",
+      "productId": "red-rose-greeting-card",
+      "category": "gift-arrangements"
+    },
+    {
+      "path": "/assets/products/gift-arrangements/gift-arrangement-purple-card.jpg",
+      "originalFile": "shared_image_4.jpg",
+      "productId": "purple-blossom-greeting-card",
+      "category": "gift-arrangements"
+    },
+    {
+      "path": "/assets/products/keychains/keychain-bunch-red-teal-purple.jpg",
+      "originalFile": "1000151845.jpg",
+      "productId": "keychain-bunch-multicolor",
+      "category": "keychains"
+    },
+    {
+      "path": "/assets/products/keychains/keychain-blue-daisy-yellow.jpg",
+      "originalFile": "shared_image_3.jpg",
+      "productId": "daisy-starflower-keychain-duo",
+      "category": "keychains"
+    },
+    {
+      "path": "/assets/products/keychains/keychain-set-blue-pink-grey.jpg",
+      "originalFile": "shared_image_2.jpg",
+      "productId": "pastel-petal-keychain-set",
+      "category": "keychains"
+    },
+    {
+      "path": "/assets/products/keychains/keychain-set-blue-yellow-red-purple.jpg",
+      "originalFile": "shared_image_1.jpg",
+      "productId": "garden-bloom-keychain-set",
+      "category": "keychains"
+    }
+  ],
+  "marketingAssets": [
+    {
+      "path": "/assets/gallery/marketing/marketing-poster-velvet-bouquet.png",
+      "originalFile": "Petal_Hugs_Velvet_Bouquet.png",
+      "note": "Designed promotional graphic with text baked in — used for social/story content, not as a raw catalog image."
+    }
+  ]
+}

@@ -10,8 +10,6 @@ export const siteConfig = {
     name: "Petal Hugs",
     tagline: "Handmade with Love",
     philosophy: "Little Flowers. Endless Love.",
-    owners: ["Harshitha", "Mala"],
-    ownerNote: "Founded by sisters Harshitha and Mala",
     logo: "/assets/brand/logo/petal-hugs-logo.png",
     description:
       "A handmade gifting and creative crafts brand, turning little handmade creations into big smiles and lasting memories.",
@@ -19,7 +17,7 @@ export const siteConfig = {
 
   story: {
     origin:
-      "Petal Hugs began with two sisters, Harshitha and Mala, who shared a love for handmade crafts. What started as a creative interest slowly blossomed into a dream — to transform that passion into a business of their own, with an identity entirely theirs.",
+      "Petal Hugs began with a girl's simple love for handmade crafts. What started as a quiet creative interest slowly blossomed into a dream — to transform that passion into a business of her own, with an identity entirely hers.",
     mission:
       "We believe that even the smallest gift can create a beautiful memory. Every Petal Hugs creation is thoughtfully handcrafted with care, creativity, and attention to detail — turning ordinary moments into something special.",
     vision:
@@ -54,9 +52,9 @@ export const siteConfig = {
 
   // ----------------------------------------------------------------------
   // PRICING TOGGLE
-  // When Harshitha & Mala are ready to show prices, flip this to `true`
-  // and add a `price` field to each product in products.ts — no component
-  // changes required anywhere else in the site.
+  // When ready to show prices, flip this to `true` and add a `price` field
+  // to each product in products.ts — no component changes required
+  // anywhere else in the site.
   // ----------------------------------------------------------------------
   pricing: {
     enabled: false,

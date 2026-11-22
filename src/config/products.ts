@@ -33,11 +33,6 @@ export const categories: ProductCategory[] = [
     description: "Lush handmade bouquets crafted from soft velvet blooms.",
   },
   {
-    id: "crochet-bouquets",
-    name: "Crochet Flower Bouquets",
-    description: "Hand-crocheted flower arrangements, stitched with love.",
-  },
-  {
     id: "individual-flowers",
     name: "Individual Handmade Flowers",
     description: "Single stems and blooms, perfect as standalone gifts or decor.",

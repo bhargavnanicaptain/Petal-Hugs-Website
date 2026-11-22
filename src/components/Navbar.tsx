@@ -70,12 +70,20 @@ export default function Navbar() {
         </div>
 
         <button
-          className="md:hidden text-maroon"
+          type="button"
+          className="md:hidden relative z-10 -mr-2 p-2.5 text-maroon touch-manipulation"
           onClick={() => setMenuOpen((o) => !o)}
           aria-label="Toggle menu"
           aria-expanded={menuOpen}
+          aria-controls="mobile-menu"
         >
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 24 24"
+            fill="none"
+            className="pointer-events-none"
+          >
             {menuOpen ? (
               <path
                 d="M6 6l12 12M18 6L6 18"
@@ -98,11 +106,12 @@ export default function Navbar() {
       <AnimatePresence>
         {menuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-            className="md:hidden overflow-hidden bg-ivory/95 backdrop-blur-md"
+            id="mobile-menu"
+            initial={{ opacity: 0, y: -12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -12 }}
+            transition={{ duration: 0.25, ease: "easeOut" }}
+            className="md:hidden absolute top-full inset-x-0 bg-ivory/95 backdrop-blur-md shadow-md"
           >
             <div className="flex flex-col px-6 py-4 gap-4">
               {NAV_LINKS.map((link) => (
@@ -113,7 +122,7 @@ export default function Navbar() {
                     e.preventDefault();
                     handleNavClick(link.href);
                   }}
-                  className="text-maroon font-medium"
+                  className="text-maroon font-medium py-1.5"
                 >
                   {link.label}
                 </a>

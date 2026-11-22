@@ -16,8 +16,8 @@ export default function Footer() {
           {siteConfig.brand.tagline}
         </p>
         <p className="text-xs text-cream/50 mt-4">
-          © {new Date().getFullYear()} {siteConfig.brand.name}. Made with
-          care by {siteConfig.brand.owners.join(" & ")}.
+          © {new Date().getFullYear()} {siteConfig.brand.name}. Handmade
+          with love.
         </p>
       </div>
     </footer>

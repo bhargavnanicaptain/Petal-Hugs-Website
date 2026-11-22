@@ -42,8 +42,9 @@ export default function BrandStory() {
               {siteConfig.story.origin}
             </p>
             <p className="text-maroon/80 leading-relaxed">
-              {siteConfig.brand.ownerNote} — two sisters who turned a shared
-              love for handmade crafts into a brand of their very own.
+              Every piece carries that same spirit today — a personal
+              passion, poured by hand into something now shared with the
+              world, one little creation at a time.
             </p>
           </motion.div>
 

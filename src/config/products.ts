@@ -131,7 +131,7 @@ export const products: Product[] = [
     id: "wrapped-lily-trio-bouquet",
     name: "Wrapped Lily Trio Bouquet",
     categoryId: "wrapped-bouquets",
-    images: ["/assets/products/wrapped-bouquets/wrapped-lily-trio-bouquet.png"],
+    images: ["/assets/products/wrapped-lily-trio-bouquet.png"],
     description:
       "Single-stem lilies in soft yellow and purple, each individually wrapped in paper and tied with an organza bow — a delicate little gift.",
     customizable: true,
@@ -142,7 +142,7 @@ export const products: Product[] = [
     id: "wrapped-sunflower-daisy-bouquet",
     name: "Sunflower & Daisy Wrapped Bouquet",
     categoryId: "wrapped-bouquets",
-    images: ["/assets/products/wrapped-bouquets/wrapped-sunflower-daisy-bouquet.png"],
+    images: ["/assets/products/wrapped-sunflower-daisy-bouquet.png"],
     description:
       "Handmade sunflowers and daisies wrapped in kraft paper and finished with a satin ribbon — a warm, sunny bouquet ready to gift.",
     customizable: true,
@@ -152,7 +152,7 @@ export const products: Product[] = [
     id: "mini-potted-flower-collection",
     name: "Mini Potted Flower Collection",
     categoryId: "potted-plants",
-    images: ["/assets/products/potted-plants/mini-potted-flower-collection.jpg"],
+    images: ["/assets/products/mini-potted-flower-collection.jpg"],
     description:
       "Tiny handmade potted flowers — sunflowers, daisies, tulips, lilies, roses, hibiscus, lavender, and more — each finished with a lace or ribbon trim. Pick your favorite style.",
     customizable: true,

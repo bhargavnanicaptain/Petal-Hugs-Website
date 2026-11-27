@@ -52,6 +52,16 @@ export const categories: ProductCategory[] = [
     name: "Customized Handmade Gifts",
     description: "Personalized creations tailored to your preferences and occasion.",
   },
+  {
+    id: "wrapped-bouquets",
+    name: "Wrapped Single-Stem Bouquets",
+    description: "Individually wrapped mini bouquets, finished with ribbon — ready to gift.",
+  },
+  {
+    id: "potted-plants",
+    name: "Mini Potted Flower Collection",
+    description: "Tiny handmade potted flowers in a variety of styles, perfect as desk decor.",
+  },
 ];
 
 export const products: Product[] = [
@@ -69,7 +79,7 @@ export const products: Product[] = [
     id: "yellow-velvet-lily-stem",
     name: "Yellow Velvet Lily Stem",
     categoryId: "individual-flowers",
-    images: ["/assets/products/individual-flowers/flower-stem-yellow-lily.jpg"],
+    images: ["/assets/products/individual-flowers/handcrafted-yellow-lily-bloom.png"],
     description:
       "A single handcrafted lily stem in soft buttery yellow — a delicate gift on its own or a lovely addition to any arrangement.",
     customizable: true,
@@ -79,10 +89,7 @@ export const products: Product[] = [
     id: "rainbow-individual-flower-set",
     name: "Rainbow Bloom Collection",
     categoryId: "individual-flowers",
-    images: [
-      "/assets/products/individual-flowers/individual-flowers-pink-purple-yellow.jpg",
-      "/assets/products/individual-flowers/individual-flowers-full-color-set.jpg",
-    ],
+    images: ["/assets/products/individual-flowers/fuzzy-flower-trio.png"],
     description:
       "A vibrant set of individual handmade flower heads in a full spectrum of colors, each finished with a delicate pearl center.",
     customizable: true,
@@ -92,20 +99,65 @@ export const products: Product[] = [
     id: "potted-pink-lily-pair",
     name: "Potted Pink Lily Pair",
     categoryId: "individual-flowers",
-    images: ["/assets/products/individual-flowers/flower-potted-pink-pair.jpg"],
+    images: ["/assets/products/individual-flowers/potted-hibiscus-pair.png"],
     description:
-      "Two charming velvet lilies nestled in handwoven mini pots — a sweet decorative piece for a desk, shelf, or gifting table.",
+      "Two charming velvet blooms nestled in handwoven mini pots — a sweet decorative piece for a desk, shelf, or gifting table.",
     customizable: true,
   },
   {
-    id: "red-rose-greeting-card",
-    name: "Red Rose Greeting Card Arrangement",
-    categoryId: "gift-arrangements",
-    images: ["/assets/products/gift-arrangements/gift-arrangement-red-rose-card.jpg"],
+    id: "velvet-sunflower-stem",
+    name: "Velvet Sunflower Stem",
+    categoryId: "individual-flowers",
+    images: [
+      "/assets/products/individual-flowers/velvet-sunflower-stem-01.png",
+      "/assets/products/individual-flowers/velvet-sunflower-stem-02.png",
+    ],
     description:
-      "A handcrafted red velvet rose mounted on a beautifully illustrated greeting card — a ready-to-gift surprise for any good-luck or everyday occasion.",
+      "A cheerful full-bloom velvet sunflower on a soft wrapped stem — a bright, sunny gift on its own or as the centerpiece of a bouquet.",
     customizable: true,
-    customizationNote: "Card message and flower color can be personalized.",
+    isNewArrival: true,
+  },
+  {
+    id: "red-rose-greeting-card",
+    name: "Mint Floral Rose Bookmark",
+    categoryId: "gift-arrangements",
+    images: ["/assets/products/gift-arrangements/mint-floral-rose-bookmark.png"],
+    description:
+      "A handcrafted red velvet rose mounted on a mint floral bookmark card, tied with a satin ribbon — a ready-to-gift surprise that doubles as a keepsake.",
+    customizable: true,
+    customizationNote: "Card design and flower color can be personalized.",
+  },
+  {
+    id: "wrapped-lily-trio-bouquet",
+    name: "Wrapped Lily Trio Bouquet",
+    categoryId: "wrapped-bouquets",
+    images: ["/assets/products/wrapped-bouquets/wrapped-lily-trio-bouquet.png"],
+    description:
+      "Single-stem lilies in soft yellow and purple, each individually wrapped in paper and tied with an organza bow — a delicate little gift.",
+    customizable: true,
+    customizationNote: "Colors and flower choice can be customized, subject to availability.",
+    isNewArrival: true,
+  },
+  {
+    id: "wrapped-sunflower-daisy-bouquet",
+    name: "Sunflower & Daisy Wrapped Bouquet",
+    categoryId: "wrapped-bouquets",
+    images: ["/assets/products/wrapped-bouquets/wrapped-sunflower-daisy-bouquet.png"],
+    description:
+      "Handmade sunflowers and daisies wrapped in kraft paper and finished with a satin ribbon — a warm, sunny bouquet ready to gift.",
+    customizable: true,
+    isNewArrival: true,
+  },
+  {
+    id: "mini-potted-flower-collection",
+    name: "Mini Potted Flower Collection",
+    categoryId: "potted-plants",
+    images: ["/assets/products/potted-plants/mini-potted-flower-collection.jpg"],
+    description:
+      "Tiny handmade potted flowers — sunflowers, daisies, tulips, lilies, roses, hibiscus, lavender, and more — each finished with a lace or ribbon trim. Pick your favorite style.",
+    customizable: true,
+    customizationNote: "Choose your flower type, pot trim, and color, subject to availability.",
+    isNewArrival: true,
   },
   {
     id: "purple-blossom-greeting-card",
@@ -119,11 +171,11 @@ export const products: Product[] = [
   },
   {
     id: "keychain-bunch-multicolor",
-    name: "Multicolor Flower Keychain Bunch",
+    name: "Colorful Plush Flower Keychains",
     categoryId: "keychains",
-    images: ["/assets/products/keychains/keychain-bunch-red-teal-purple.jpg"],
+    images: ["/assets/products/keychains/keychain-colorful-plush-bunch.png"],
     description:
-      "A cheerful cluster of handmade flower keychains in red, teal, and purple — colorful companions for your keys or bag.",
+      "A cheerful cluster of handmade flower keychains in bold blues, reds, and purples — colorful companions for your keys or bag.",
     customizable: true,
   },
   {
